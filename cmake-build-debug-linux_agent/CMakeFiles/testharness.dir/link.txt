@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtestharness.a CMakeFiles/testharness.dir/test_util/testharness.cc.o
+/usr/bin/ranlib libtestharness.a

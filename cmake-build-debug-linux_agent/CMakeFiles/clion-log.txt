@@ -1,0 +1,6 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DWITH_SNAPPY=1 -G "CodeBlocks - Unix Makefiles" -S /tmp/tmp.M5MoLOXoDV -B /tmp/tmp.M5MoLOXoDV/cmake-build-debug-linux_agent
+-- Enabling RTTI in Debug builds only (default)
+-- JNI library is disabled
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.M5MoLOXoDV/cmake-build-debug-linux_agent

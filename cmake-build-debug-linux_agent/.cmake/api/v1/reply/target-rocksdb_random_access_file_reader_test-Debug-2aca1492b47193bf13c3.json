@@ -1,0 +1,339 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "random_access_file_reader_test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1179,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1186,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 291,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 290,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 449,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 484,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 470,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 512,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 371,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 496,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 517,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 305,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 525,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 526,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 528,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 903,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -lpmem -lpmemobj -lpthread -lgflags -march=native -Werror -fno-builtin-memcmp -g -DROCKSDB_USE_RTTI"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "GFLAGS=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_PCLMUL"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_SSE42"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "OS_LINUX"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ROCKSDB_FALLOCATE_PRESENT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ROCKSDB_LIB_IO_POSIX"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "ROCKSDB_MALLOC_USABLE_SIZE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ROCKSDB_NO_DYNAMIC_EXTENSION"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ROCKSDB_PLATFORM_POSIX"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ROCKSDB_PTHREAD_ADAPTIVE_MUTEX"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ROCKSDB_RANGESYNC_PRESENT"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "ROCKSDB_SCHED_GETCPU_PRESENT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "ROCKSDB_SUPPORT_THREAD_LOCAL"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "SNAPPY"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "/tmp/tmp.M5MoLOXoDV"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/tmp/tmp.M5MoLOXoDV/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/tmp/tmp.M5MoLOXoDV/third-party/folly"
+				},
+				{
+					"backtrace" : 19,
+					"isSystem" : true,
+					"path" : "/tmp/tmp.M5MoLOXoDV/third-party/gtest-1.8.1/fused-src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "testutillib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rocksdb-shared::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "testharness::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@670d2a806ee78d282eee"
+		}
+	],
+	"id" : "rocksdb_random_access_file_reader_test::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -lpmem -lpmemobj -lpthread -lgflags -march=native -Werror -fno-builtin-memcmp -g -DROCKSDB_USE_RTTI",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-I/usr/local/include -L/usr/local/lib",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/tmp/tmp.M5MoLOXoDV/cmake-build-debug-linux_agent",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libtestutillib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libtestharness.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third-party/gtest-1.8.1/fused-src/gtest/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "librocksdb.so.6.11.4",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "rocksdb_random_access_file_reader_test",
+	"nameOnDisk" : "random_access_file_reader_test",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "file/random_access_file_reader_test.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
